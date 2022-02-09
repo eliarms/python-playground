@@ -8,7 +8,7 @@ greet("emmanuel", "Eliarms")
 def get_greeting(name):
     return f"Hi{name}"
 message = get_greeting("me")
-file = open ("content.txt", "w")
+file = open ("note.txt", "w")
 file.write(message)
 
 def increment (number, by=1):
